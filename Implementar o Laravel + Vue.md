@@ -29,3 +29,19 @@ Executamos o seguinte:
 npm install
 ```
 
+## Instalando o Vue.js
+Agora vamos instalar o vue mais recente
+```
+npm install vue@next
+```
+
+Depois do Vue.js instalado vamos instalar também o Vue Router:
+
+```
+npm install vue-router@4
+```
+PRONTO!
+Agora que fizemos todas as intalações para para o nosso editor fazer as configurações, para que possa funcionar o Laravel e o Vue ao mesmo tempo.
+
+
+## CONFIGURANDO NOSSO PROJETO
