@@ -16,7 +16,7 @@ composer global require laravel/installer
 ```
 laravel new nameProjectExample
 ``` 
-<br><br>
+<br>
 
 ### Depois vc vai entrar na pasta de seu projeto
 Você deve colocar o nome da pasta escolhida
@@ -24,14 +24,14 @@ Você deve colocar o nome da pasta escolhida
 ```
 cd nameProjectExample
 ```
-<br><br>
+<br>
 
 ## Agora vamos para o próximo passo
 Executamos o seguinte:
 ```
 npm install
 ```
-<br><br>
+<br>
 
 ## Instalando o Vue.js
 Agora vamos instalar o vue mais recente
