@@ -5,7 +5,7 @@
 ```
  composer create-project laravel/laravel nameProjectExample 
  ```
-<br><br>
+<br>
 ### Ou vc pode instalar dessa forma
 
 ```
