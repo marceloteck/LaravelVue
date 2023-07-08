@@ -2,7 +2,7 @@
 
 ### Instalando o Laravel mais recente
 
-```php
+```
  composer create-project laravel/laravel nameProjectExample 
  ```
 
