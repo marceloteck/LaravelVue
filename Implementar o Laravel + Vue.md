@@ -8,6 +8,10 @@
 
 ### ou vc pode instalar dessa forma
 
-```composer global require laravel/installer``` 
+```
+composer global require laravel/installer
+``` 
  
-```laravel new nameProjectExample``` 
+```
+laravel new nameProjectExample
+``` 
