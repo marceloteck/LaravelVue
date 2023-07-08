@@ -1,4 +1,4 @@
-# Criando projeto Laravel 10 + Vue 3
+# Criando projeto Laravel 10 + Vue 3 (Passo a Passo)
 
 ### Instalando o Laravel mais recente
 
