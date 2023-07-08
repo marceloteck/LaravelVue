@@ -4,6 +4,8 @@ Neste arquivo, você encontrará instruções e recursos para auxiliar no desenv
 
 ## Tópicos de Desenvolvimento
 
+- [Implementar o laravel 10 com o vue 3](Implementar o Laravel + Vue.md)
+
 <!--
 - [Configuração do Ambiente de Desenvolvimento](configuracao-ambiente.md)
 - [Guia de Boas Práticas de Código](boas-praticas-codigo.md)
