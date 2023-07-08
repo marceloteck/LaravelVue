@@ -2,7 +2,9 @@
 
 ### Instalando o Laravel mais recente
 
-``` composer create-project laravel/laravel nameProjectExample ```
+```php
+ composer create-project laravel/laravel nameProjectExample 
+ ```
 
 ### ou vc pode instalar dessa forma
 
