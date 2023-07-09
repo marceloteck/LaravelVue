@@ -1,5 +1,10 @@
-# Criando projeto Laravel 10 + Vue 3 (Passo a Passo)
+# Criando projeto Laravel 10 + Vue 3 (Passo a Passo) com Router Vue
+<br>
 
+![Vue+Laravel](https://raw.githubusercontent.com/marceloteck/LaravelVue/main/Implementar%20o%20Laravel%20%2B%20Vue/image/vue%2Blaravel.png)
+
+
+<br>
 ### Instalando o Laravel mais recente
 
 ```
