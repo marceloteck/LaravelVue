@@ -4,7 +4,7 @@ Neste arquivo, você encontrará instruções e recursos para auxiliar no desenv
 
 ## Tópicos de Desenvolvimento
 
-- [Implementar o laravel 10 com o vue 3](Implementar%20o%20Laravel%20%2B%20Vue.md)
+- [Implementar o laravel 10 com o vue 3](https://github.com/marceloteck/LaravelVue/tree/main/Implementar%20o%20Laravel%20%2B%20Vue)
 
 <!--
 - [Configuração do Ambiente de Desenvolvimento](configuracao-ambiente.md)
