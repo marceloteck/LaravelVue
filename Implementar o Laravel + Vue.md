@@ -298,6 +298,26 @@ Route::get('/{any}', function () {
 
 ```
 
+# #MÃOS A OBRA
+
+Agora que está tudo configurado é só execultar o seguinte código no terminal e conseguirar trabalhar com vue e laravel ao mesmo tempo em seu pc.
+
+```
+npm rum dev
+```
+<br>
+<br>
+
 # #BONUS
 
-Na Pasta { nameProjectExample } / config
+No arquivo ```{ nameProjectExample } / config/view.php```
+<br> 
+
+adicione o código abaixo logo depois do ```'compiled' => env(),```
+
+```
+'extensions' => [
+        'php',
+    ],
+```
+Agora quando for chamar uma pagina no php, e não quiser usar o ```.blade.php``` , poderar criar somente com o ```.php```.
