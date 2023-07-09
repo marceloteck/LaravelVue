@@ -59,6 +59,7 @@ Agora que fizemos todas as intalações, vamos para para o nosso editor fazer as
 <br><br>
 
 ## CONFIGURANDO NOSSO PROJETO
+> *Todos os arquivos estão aqui no github*
 
 No arquivo vite.config.js, vamos deixar da seguinte forma:
 
@@ -322,3 +323,5 @@ adicione o código abaixo logo depois do ```'compiled' => env(),```
     ],
 ```
 Agora quando for chamar uma pagina no php, e não quiser usar o ```.blade.php``` , poderar criar somente com o ```.php```.
+
+> *Só lembrando que todos os arquivos estão aqui no github*
