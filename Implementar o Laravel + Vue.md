@@ -155,7 +155,7 @@ Agora que criamos nosso diretório vamos terminar de fazer nossas configuraçõe
 
 No diretório ```resources/js/app.js``` deve ficar assim:
 
-> Já está sendo inportado o vue.js e o vue router
+> Já está sendo iMportado o vue.js e o vue router
 
 >Observe que nossas configurações de roteamento e componentes estão acontecendo aqui dentro
 
@@ -266,7 +266,7 @@ Na página index.blade.php, fica assim:
 E por utimo vamos configurar nossa Rota do laravel para enviar as solicitaçõs para o vue fazer o roteamento das páginas:
 <br>
 
-Vamos editar o aquivo:  ``` resources/routes/web.php ```
+Vamos editar o aquivo:  ```{ nameProjectExample } /routes/web.php ```
 <br>
 
 O PHP funciona de cima para baixa, então qualquer rota a cima do 
