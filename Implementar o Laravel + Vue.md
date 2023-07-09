@@ -146,7 +146,7 @@ Todos os arquivos ```.vue``` precisam ter essa estrutura:
     /* css */
 </style>
 ```
-se não tiver o ```template``` vai dar erro no vue.js, e não irar funcionar.
+se não tiver a TAG ```template``` vai dar erro no vue.js, e não irar funcionar.
 
 ## Configurando nosso app.js
 Agora que criamos nosso diretório vamos terminar de fazer nossas configurações e finalmente começar a desenvolver nossa aplicação com o laravel e o vue.
