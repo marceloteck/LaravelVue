@@ -5,7 +5,7 @@ Neste arquivo, você encontrará instruções e recursos para auxiliar no desenv
 ## Tópicos de Desenvolvimento
 
 - [Implementar o laravel 10 com o vue 3 (Passo a Passo)](https://github.com/marceloteck/Instalar-Laravel10-e-Vue3-Passo-a-Passo)
-- [Variaveis vue.js e outros dentro do blade.php](https://github.com/marceloteck/LaravelVue/blob/main/C%C3%B3digos%20R%C3%A1pidos.md)
+- [Variaveis vue.js e outros frameworks dentro do blade.php](https://github.com/marceloteck/LaravelVue/blob/main/C%C3%B3digos%20R%C3%A1pidos.md)
 
 <!--
 
