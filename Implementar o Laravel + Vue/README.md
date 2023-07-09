@@ -272,7 +272,11 @@ Na página index.blade.php, fica assim:
 </head>
 <body>
     <div id="app">
-        <menudir /> <!-- Ref: app.component('menudir', menudir); -->
+        <section class="navbarVue">
+            <menudir /><!-- Ref: app.component('menudir', menudir); -->
+        </section>
+        <section class="outrosComponentes">
+        </section>
     </div>
 </body>
 </html>

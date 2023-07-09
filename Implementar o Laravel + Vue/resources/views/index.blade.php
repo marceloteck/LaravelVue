@@ -10,7 +10,11 @@
 </head>
 <body>
     <div id="app">
-        <menudir />
+        <section class="navbarVue">
+            <menudir />
+        </section>
+        <section class="outrosComponentes">
+        </section>
     </div>
 </body>
 </html>
