@@ -99,6 +99,8 @@ Todas as pastas e arquivos serão criados dentro do diretorio:
 { nameProjectExample } / resources/js
 ``` 
 <br>
-vamos criar a pasta *view* e a pasta ```components```
+
+vamos criar a pasta *```view```* e a pasta ```components```
 <br>
-Agora na dentro da pasta ```resources/js/view``` vamos crair a pasta ```pages``` e a pasta ```errors```
+
+Agora na dentro da pasta ```resources/js/view``` vamos criar a pasta ```pages``` e a pasta ```errors```
