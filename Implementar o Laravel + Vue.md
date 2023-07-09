@@ -148,6 +148,14 @@ Todos os arquivos ```.vue``` precisam ter essa estrutura:
 ```
 se não tiver a TAG ```template``` vai dar erro no vue.js, e não irar funcionar.
 
+
+Na Pasta ``` resources/views/ ```, vamos criar o:
+```
+index.blade.php
+teste.blade.php
+```
+
+
 ## Configurando nosso app.js
 Agora que criamos nosso diretório vamos terminar de fazer nossas configurações e finalmente começar a desenvolver nossa aplicação com o laravel e o vue.
 <br>
@@ -289,3 +297,7 @@ Route::get('/{any}', function () {
 })->where('any', '^(?!api).*$');
 
 ```
+
+# #BONUS
+
+Na Pasta { nameProjectExample } / config
