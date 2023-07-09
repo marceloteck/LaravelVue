@@ -56,6 +56,12 @@ E por último instalamos o plugin do vitejs
 ```
 npm install @vitejs/plugin-vue
 ```
+<br>
+
+Executamos o seguinte novamente:
+```
+npm install
+```
 
 <br>
 
