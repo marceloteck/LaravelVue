@@ -33,13 +33,8 @@ cd nameProjectExample
 <br>
 
 ## Agora vamos para o próximo passo
-Executamos o seguinte:
-```
-npm install
-```
-<br>
 
-## Instalando o Vue.js
+### Instalando o Vue.js
 Agora vamos instalar o vue mais recente
 ```
 npm install vue@next
@@ -58,7 +53,7 @@ npm install @vitejs/plugin-vue
 ```
 <br>
 
-Executamos o seguinte novamente:
+Executamos o seguinte:
 ```
 npm install
 ```
