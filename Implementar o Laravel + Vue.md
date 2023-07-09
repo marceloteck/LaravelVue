@@ -100,9 +100,53 @@ Todas as pastas e arquivos serão criados dentro do diretorio:
 ``` 
 <br>
 
-> vamos criar a pasta *```view```* e a pasta *```components```*
+vamos criar a pasta *```view```* e a pasta *```components```*
 <br>
 
-> Agora na dentro da pasta *```resources/js/view```* vamos criar a pasta *```pages```* e a pasta *```errors```*
+Agora na dentro da pasta *```resources/js/view```* vamos criar a pasta *```pages```* e a pasta *```errors```*
 
-Depois das pastas  criadas, vamos aos arquivos.
+> Depois das pastas  criadas, vamos aos arquivos, (Apenas como exemplo para testar os códigos).
+
+na pasta ```resources/js/view/pages``` vamos criar os aquivos:
+<br>
+
+```
+login.vue
+home.vue
+cadastro.vue
+```
+Na pasta ```resources/js/view/errors``` vamos criar o arquivo:
+
+```
+404.vue
+```
+<br>
+
+Agora na pasta ```components``` vamos criar o arquivo: 
+
+```
+menudir.vue
+```
+## **#Aviso**
+
+Todos os arquivos ```.blade.php``` precisam ter essa estrutura:
+
+```
+<template>
+    <div>
+        <h1>Conteudo do Arquivo</h1>
+    </div>
+</template>
+
+<script>
+    /* Script */
+</script>
+
+<style scoped>
+    /* css */
+</style>
+```
+se não tiver o ```template``` vai dar erro no vue.js, e não irar funcionar.
+
+
+
