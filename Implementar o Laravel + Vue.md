@@ -129,7 +129,7 @@ menudir.vue
 ```
 ## **#Aviso**
 
-Todos os arquivos ```.blade.php``` precisam ter essa estrutura:
+Todos os arquivos ```.vue``` precisam ter essa estrutura:
 
 ```
 <template>
