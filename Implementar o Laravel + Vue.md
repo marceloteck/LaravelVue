@@ -45,10 +45,48 @@ Depois do Vue.js instalado vamos instalar também o Vue Router:
 npm install vue-router@4
 ```
 <br>
+E por último instalamos o plugin do vitejs
+
+```
+npm install @vitejs/plugin-vue
+```
+
+<br>
 
 PRONTO! <br>
-Agora que fizemos todas as intalações para para o nosso editor fazer as configurações, para que possa funcionar o Laravel e o Vue ao mesmo tempo.
+Agora que fizemos todas as intalações, vamos para para o nosso editor fazer as configurações, e logo veremos funcionar o Laravel e o Vue ao mesmo tempo.
 
 <br><br>
 
 ## CONFIGURANDO NOSSO PROJETO
+
+No arquivo vite.config.js, vamos deixar da seguinte forma:
+
+```
+import { defineConfig } from 'vite';
+import laravel from 'laravel-vite-plugin';
+import vue from "@vitejs/plugin-vue";
+
+export default defineConfig({
+    plugins: [
+        laravel({
+            input: ['resources/css/app.css', 'resources/js/app.js'],
+            refresh: true,
+        }),
+        vue({
+            template: {
+                transformAssetUrls: {
+                    base: null,
+                    includeAbsolute: false,
+                },
+            },
+        }),
+
+
+    ],
+});
+
+```
+
+O arquivo vite.config.js está localizado no caminho raiz do projeto:
+{ nameProjectExample } / vite.config.js
