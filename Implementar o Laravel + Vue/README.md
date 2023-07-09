@@ -88,7 +88,8 @@ export default defineConfig({
 ```
 <br>
 O arquivo vite.config.js está localizado no caminho raiz do projeto:<br>
-{ nameProjectExample } / vite.config.js
+
+``` { nameProjectExample } / vite.config.js``` 
 <br>
 <br>
 
