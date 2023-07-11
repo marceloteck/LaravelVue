@@ -14,6 +14,8 @@ Neste arquivo, você encontrará instruções e recursos para auxiliar no desenv
 - [Implementar o laravel 10 com o vue 3 (Passo a Passo)](https://github.com/marceloteck/Instalar-Laravel10-e-Vue3-Passo-a-Passo)
 - [Variaveis vue.js e outros frameworks dentro do blade.php](https://github.com/marceloteck/LaravelVue/blob/main/C%C3%B3digos%20R%C3%A1pidos.md)
 
+- [Como preparar o Windows para aprender Laravel e Vue (Laragon)](https://github.com/marceloteck/Como-preparar-o-Windows-para-aprender-Laravel-e-Vue)
+
 <!--
 
 - [Configuração do Ambiente de Desenvolvimento](configuracao-ambiente.md)
