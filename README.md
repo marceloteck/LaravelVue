@@ -1,5 +1,12 @@
 # Instruções de Desenvolvimento
 
+<div align="center">
+  
+[Home](https://github.com/marceloteck/LaravelVue/edit/main/README.md) <!-- | [Sobre](#sobre) | [Projetos](#projetos) | [Contato](#contato) | [Portfólio](#portfolio) -->
+
+</div>
+
+
 Neste arquivo, você encontrará instruções e recursos para auxiliar no desenvolvimento de projetos e aplicações. Os links abaixo direcionam para arquivos que fornecem informações detalhadas sobre diferentes aspectos do desenvolvimento. Siga as instruções correspondentes ao seu interesse e comece a desenvolver com confiança.
 
 ## Tópicos de Desenvolvimento
