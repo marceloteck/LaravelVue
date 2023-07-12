@@ -15,6 +15,8 @@ Neste arquivo, você encontrará instruções e recursos para auxiliar no desenv
 - [Variaveis vue.js e outros frameworks dentro do blade.php](https://github.com/marceloteck/LaravelVue/blob/main/C%C3%B3digos%20R%C3%A1pidos.md)
 
 - [Como preparar o Windows para aprender Laravel e Vue (Laragon)](https://github.com/marceloteck/LaravelVue/blob/main/Como-preparar-o-Windows-para-aprender-Laravel-e-Vue.md)
+  
+- [Trabalhando com rotas do vue.js no menu do site](https://github.com/marceloteck/LaravelVue/blob/main/Menu%20e%20rotas%20no%20vue.js.md)
 
 <!--
 
