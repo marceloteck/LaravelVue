@@ -8,13 +8,13 @@ No menu.vue
         <router-link to="/" class="nav-link" active-class="active">home</router-link>
       </li>
       <li class="nav-item">
-        <router-link to="/notificados" class="nav-link" active-class="active">page 1</router-link>
+        <router-link to="/page1" class="nav-link" active-class="active">page 1</router-link>
       </li>
       <li class="nav-item">
-        <router-link to="/faltando-doses" class="nav-link" active-class="active">page 2</router-link>
+        <router-link to="/page2" class="nav-link" active-class="active">page 2</router-link>
       </li>
       <li class="nav-item">
-        <router-link to="/sem-doses" class="nav-link" active-class="active">page 2</router-link>
+        <router-link to="/page3" class="nav-link" active-class="active">page 2</router-link>
       </li>
     </ul>
   </template>
