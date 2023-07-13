@@ -1,3 +1,12 @@
+<br>
+<div align="center">
+  
+[Voltar ao git principal](https://github.com/marceloteck/LaravelVue/tree/main) 
+
+</div>
+
+<br>
+
 # Validação de cadastro de usuario com Vue.js + Laravel
 
 Cole esse Rota no arquivo de rota do Laravel ```api.php```
