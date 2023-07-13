@@ -193,7 +193,6 @@ export default axiosInstance;
                                   <span class="lock-icon"><i class="fa fa-lock"></i></span>
                                   <input type="password"  Placeholder="Repetir Senha">
                               </p> 
-  >
                             <div>
                                 <span style="width:48%; text-align:left;  display: inline-block;">
                                     <a class="small-text" href="/login">Login</a>
