@@ -18,6 +18,8 @@ Neste arquivo, você encontrará instruções e recursos para auxiliar no desenv
   
 - [Trabalhando com rotas do vue.js no menu do site](https://github.com/marceloteck/LaravelVue/blob/main/Menu%20e%20rotas%20no%20vue.js.md)
 
+- [Validação de cadastro de usuario com Vue.js + Laravel](https://github.com/marceloteck/LaravelVue/tree/main/FormValidation)
+
 <!--
 
 - [Configuração do Ambiente de Desenvolvimento](configuracao-ambiente.md)
