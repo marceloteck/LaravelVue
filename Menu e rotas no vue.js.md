@@ -36,10 +36,26 @@ import NotFound from './view/errors/404.vue';
 const router = createRouter({
     history: createWebHistory(),
     routes: [
-        { path: '/', component: home },
-        { path: '/page1', component: page1 },
-        { path: '/page2', component: page2 },
-        { path: '/page3', component: page3 },
+        { path: '/',
+  component: home },
+        {
+            path: '/page1',
+            component: page1,
+            name: 'page1', 
+            meta: { title: 'Página 01 - meu site' }
+        },
+        {
+            path: '/page2',
+            component: page2,
+            name: 'page2', 
+            meta: { title: 'Página 02 - meu site' }
+        },
+        {
+            path: '/page3',
+            component: page3,
+            name: 'page1', 
+            meta: { title: 'Página 03 - meu site' }
+        },
 
         // roteamento para quando a pagina não foi encontrada:
         { path: '/:catchAll(.*)', component: NotFound },
