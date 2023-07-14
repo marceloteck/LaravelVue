@@ -18,7 +18,7 @@ Neste arquivo, você encontrará instruções e recursos para auxiliar no desenv
   
 - [Trabalhando com rotas do vue.js no menu do site](https://github.com/marceloteck/LaravelVue/blob/main/Menu%20e%20rotas%20no%20vue.js.md)
 
-- [Validação de cadastro de usuario com Vue.js + Laravel](https://github.com/marceloteck/components.LaravelVue)
+- [Componentes do Laravel com Vue.js](https://github.com/marceloteck/components.LaravelVue)
 
 
 ## LINKS DE FERRAMENTAS E DOCUMENTAÇÃO PARA DESENVOLVIMENTO
