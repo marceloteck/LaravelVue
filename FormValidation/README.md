@@ -90,13 +90,17 @@ class registerController extends Controller
             
             // verifica os erros e mostra as mesnagens da função handleError() 
             if ($nameError) {
-                return $RegisterValidation->handleError('string');
+                return $RegisterValidation->handleError('name');
             }
             
             if ($emailError) {
-                if ($errors->has('email', 'unique')) {
+                
+                if (User::where('email', $request->email)->exists() || $errors->has('email', 'unique')) 
+                {
                     return $RegisterValidation->handleError('email_unique');
-                } elseif ($errors->has('email', 'email')) {
+                } 
+                elseif ($errors->has('email', 'email')) 
+                {
                     return $RegisterValidation->handleError('email_invalid');
                 }
             }
@@ -107,6 +111,7 @@ class registerController extends Controller
         }
     }
 }
+
 
 ```
 <br>
