@@ -42,86 +42,34 @@ class registerController extends Controller
         } catch (ValidationException $e) {
             $errors = $e->validator->errors();
 
+            //captura os erros e define em uma variavel
             $nameError = $errors->first('name');
             $emailError = $errors->first('email');
             $passwordError = $errors->first('password');
 
+            // cria um objeto da class RegisterValidation do Exceptions
             $RegisterValidation = new RegisterValidation();
             
+            // verifica os erros e mostra as mesnagens da função handleError() 
             if ($nameError) {
                 return $RegisterValidation->handleError('name');
             }
             
             if ($emailError) {
-                if ($errors->has('email', 'unique')) {
+                
+                if (User::where('email', $request->email)->exists() || $errors->has('email', 'unique')) 
+                {
                     return $RegisterValidation->handleError('email_unique');
-                } elseif ($errors->has('email', 'email')) {
+                } 
+                elseif ($errors->has('email', 'email')) 
+                {
                     return $RegisterValidation->handleError('email_invalid');
                 }
             }
             
             if ($passwordError) {
                 return $RegisterValidation->handleError('password');
-            }
-            
-
-
-
-
-
-
-
-
-            /*
-            $nameError = $errors->first('name');
-            $emailError = $errors->first('email');
-            $passwordError = $errors->first('password');
-        
-            // Agora você pode exibir as mensagens de erro como desejar
-        
-            if ($nameError) {
-                return response()->json([
-                    'error' => true, 
-                    'message' => 'Nome Inválido!'
-                ]);
-            }
-        
-            if ($emailError) {
-                if ($errors->has('email', 'unique')) {
-                    // Mensagem de erro para email já cadastrado
-                    return response()->json([
-                        'error' => true, 
-                        'message' => 'Este E-mail já está cadastrado!'
-                    ]);
-                } elseif ($errors->has('email', 'email')) {
-                    // Mensagem de erro para email inválido
-                    return response()->json([
-                        'error' => true, 
-                        'message' => 'E-mail inválido!'
-                    ]);
-                }
-            }
-        
-            if ($passwordError) {
-                return response()->json([
-                    'error' => true, 
-                    'message' => 'Senha Insegura, deve ter no minimo 8 caracteres!'
-                ]);
-            }*/
-
-
-
-
-
-
-
-
-
-
-            
-
-
-            
+            }            
         }
     }
 }
