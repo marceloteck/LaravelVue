@@ -53,7 +53,7 @@ const router = createRouter({
         {
             path: '/page3',
             component: page3,
-            name: 'page1', 
+            name: 'page3', 
             meta: { title: 'Página 03 - meu site' }
         },
 
