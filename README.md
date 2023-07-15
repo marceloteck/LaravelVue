@@ -38,3 +38,17 @@ Neste arquivo, você encontrará instruções e recursos para auxiliar no desenv
 -->
 
 Cada arquivo fornece orientações detalhadas e recursos relacionados a um aspecto específico do desenvolvimento. Utilize esses recursos como referência durante o desenvolvimento dos seus projetos e aproveite as boas práticas compartilhadas.
+
+<br>
+
+### Códgos Laravel e Vue.js Uteis
+
+```sh
+npm run build
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint
+```
